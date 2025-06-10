@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIK STORE Payment</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: radial-gradient(circle, #0a0a0a 0%, #000 100%);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #0f0;
+        }
+        
+        h1 {
+            color: #0f0;
+            font-size: 2.5em;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+        }
+        
+        .payment-method {
+            background-color: #111;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #0f0;
+        }
+        
+        .payment-method h2 {
+            margin-top: 0;
+            color: #0f0;
+        }
+        
+        .payment-details {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        
+        .payment-icon {
+            font-size: 2em;
+            margin-right: 15px;
+            color: #0f0;
+        }
+        
+        .youtube-section {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #0f0;
+        }
+        
+        .youtube-button {
+            display: inline-block;
+            background-color: #ff0000;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: all 0.3s;
+            border: 2px solid #0f0;
+        }
+        
+        .youtube-button:hover {
+            background-color: #0f0;
+            transform: scale(1.05);
+        }
+        
+        .qris-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .qris-image {
+            max-width: 250px;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+        }
+        
+        .highlight {
+            color: #0f0;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #0f0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DIK STORE PAYMENT</h1>
+            <p>Silahkan pilih metode pembayaran yang tersedia</p>
+        </header>
+        
+        <div class="payment-method">
+            <h2>Transfer Bank (DANA)</h2>
+            <div class="payment-details">
+                <div class="payment-icon">💳</div>
+                <div>
+                    <p>Nomor: <span class="highlight">081946492969</span></p>
+                    <p>Atas Nama: <span class="highlight">K</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="payment-method">
+            <h2>GOPAY</h2>
+            <div class="payment-details">
+                <div class="payment-icon">📱</div>
+                <div>
+                    <p>Nomor: <span class="highlight">085923596743</span></p>
+                    <p>Atas Nama: <span class="highlight">A</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="payment-method">
+            <h2>OVO</h2>
+            <div class="payment-details">
+                <div class="payment-icon">📲</div>
+                <div>
+                    <p>Nomor: <span class="highlight">085923596743</span></p>
+                    <p>Atas Nama: <span class="highlight">W</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="payment-method">
+            <h2>QRIS</h2>
+            <div class="qris-container">
+                <img src="https://files.catbox.moe/lb6v0e.png" alt="QRIS Payment" class="qris-image">
+                <p>Scan QR code di atas untuk pembayaran</p>
+            </div>
+        </div>
+        
+        <div class="youtube-section">
+            <h2>Kunjungi Channel YouTube Kami</h2>
+            <p>Jangan lupa subscribe untuk update terbaru!</p>
+            <a href="https://youtube.com/@dik_marker?si=rfvhpqS-Jz3clwjN" class="youtube-button" target="_blank">
+                YouTube DIK MARKER
+            </a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 DIK STORE. All rights reserved.</p>
+            <p>Konfirmasi pembayaran via WhatsApp setelah transfer.</p>
+        </footer>
+    </div>
+</body>
+</html>
